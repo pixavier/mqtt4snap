@@ -10,7 +10,7 @@ Import  **mqtt4snap_standalone.xml** into Snap!
 
 Here you can see the blocks and a simple example to test:
 
-![Minimal example](mqtt4snap.png)
+![Minimal example](img/mqtt4snap.png)
  
  
 ### Acknowledgents
