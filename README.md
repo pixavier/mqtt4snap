@@ -33,7 +33,7 @@ The **request** block is suitable for a synchronous client-server architectural 
 
 ### disconnect block
 
-**disconnect** block accepts the value **all** as parameter, and then it closes all existing connections to MQTT brokers.
+The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to MQTT brokers.
 
 
 ## Acknowledgents
