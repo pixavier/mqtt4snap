@@ -11,8 +11,26 @@ Import  **mqtt4snap_standalone.xml** into Snap!
 Here you can see the blocks and a simple example to test:
 
 ![Minimal example](img/mqtt4snap.png)
- 
- 
+
+
+### pub / sub blocks
+
+Suitable for PubSub arquitecture based implementations
+
+![pub sub blocks](img/PubSub.png)
+
+### request / response
+
+Suitable for asynchronous client-server architectural approach on a PubSub based infrastructure
+
+![request response blocks](img/PubSub_client-server_async.png)
+
+### request repoerter block
+
+Suitable for synchronous client-server architectural approach on a PubSub based infrastructure
+
+![request reporter block](img/PubSub_client-server_sync.png)
+
 ## Acknowledgents
 
 Of course, this project wouldn't exist without:
