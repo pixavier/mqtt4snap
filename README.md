@@ -19,7 +19,7 @@ Suitable for PubSub arquitecture based implementations
 
 ![pub sub blocks](img/PubSub.png)
 
-### request / response
+### request / response blocks
 
 Suitable for asynchronous client-server architectural approach on a PubSub based infrastructure
 
