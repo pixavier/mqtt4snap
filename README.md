@@ -2,7 +2,7 @@
 
 MQTT4Snap! is a Snap! library for using MQTT in Snap! and Snap4Arduino.
 
-The default broker is  [test.mosquitto.org](http://www.mosquitto.org).
+The default broker is  [test.mosquitto.org](https://test.mosquitto.org).
 
 ### Blocks and usage
 
