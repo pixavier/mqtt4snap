@@ -15,25 +15,25 @@ Here you can see the blocks and a simple example to test:
 
 ### pub / sub blocks
 
-Suitable for PubSub arquitecture based implementations
+**pub** and **sub** blocks are suitable for PubSub arquitecture based implementations
 
 ![pub sub blocks](img/PubSub.png)
 
 ### request / response blocks
 
-Suitable for asynchronous client-server architectural approach on a PubSub based infrastructure
+**request** and **response** blocks are suitable for asynchronous client-server architectural approach on a PubSub based infrastructure
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
 ### request reporter block
 
-Suitable for synchronous client-server architectural approach on a PubSub based infrastructure
+**request** block is uitable for synchronous client-server architectural approach on a PubSub based infrastructure
 
 ![request reporter block](img/PubSub_client-server_sync.png)
 
 ### disconnect block
 
-Disconnect block accepts also **all** as parameter, and then it closes all existing connections to MQTT brokers.
+**disconnect** block accepts the value **all** as parameter, and then it closes all existing connections to MQTT brokers.
 
 
 ## Acknowledgents
