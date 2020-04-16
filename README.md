@@ -25,7 +25,7 @@ Suitable for asynchronous client-server architectural approach on a PubSub based
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
-### request repoerter block
+### request reporter block
 
 Suitable for synchronous client-server architectural approach on a PubSub based infrastructure
 
