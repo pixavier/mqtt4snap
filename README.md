@@ -27,7 +27,7 @@ Here you can see the blocks and a simple example to test:
 
 ### request reporter block
 
-**request** block is uitable for synchronous client-server architectural approach on a PubSub based infrastructure.
+**request** block is suitable for synchronous client-server architectural approach on a PubSub based infrastructure.
 
 ![request reporter block](img/PubSub_client-server_sync.png)
 
