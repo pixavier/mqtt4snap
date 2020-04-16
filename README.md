@@ -31,6 +31,10 @@ Suitable for synchronous client-server architectural approach on a PubSub based 
 
 ![request reporter block](img/PubSub_client-server_sync.png)
 
+### disconnect block
+
+Disconnect block accepts also **all** as parameter, and then close all existing connections to MQTT brokers.
+
 ## Acknowledgents
 
 Of course, this project wouldn't exist without:
