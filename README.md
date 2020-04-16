@@ -6,7 +6,7 @@ The default broker is  [test.mosquitto.org](https://test.mosquitto.org).
 
 ## Blocks and usage
 
-Import  **mqtt4snap_standalone.xml** into Snap!
+Import    **mqtt4snap_standalone.xml**    into Snap!
 
 Here you can see the blocks and a simple example to test:
 
