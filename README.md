@@ -12,3 +12,11 @@ Here you can see the blocks and a simple example to test:
 
 ![Minimal example](mqtt4snap.png)
  
+ 
+### Acknowledgents
+
+Of course, this project wouldn't exist without:
+
+- [MQTT.js](https://github.com/mqttjs)
+- The "fetch JavaScript" from [Bernat Romagosa](https://github.com/bromagosa)
+
