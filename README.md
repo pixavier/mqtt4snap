@@ -31,6 +31,8 @@ The **request** block is suitable for a synchronous client-server architectural 
 
 ![request reporter block](img/PubSub_client-server_sync.png)
 
+The waiting semaphore can be improved adding timeout management.
+
 ### disconnect block
 
 The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to MQTT brokers.
