@@ -1,6 +1,6 @@
 # MQTT4Snap *!*
 
-MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/wiki/MQTT) in [Snap!](http://snap.berkeley.edu) and [Snap4Arduino](http://snap4arduino.rocks).
+MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/wiki/MQTT) in [Snap *!*](http://snap.berkeley.edu) and [Snap4Arduino](http://snap4arduino.rocks).
 
 The default broker is  [test.mosquitto.org](https://test.mosquitto.org).
 
