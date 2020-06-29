@@ -44,4 +44,6 @@ Of course, this project wouldn't exist without:
 
 - [MQTT.js](https://github.com/mqttjs/MQTT.js)
 - The "fetch JavaScript" block from [Bernat Romagosa](https://github.com/bromagosa)
+- The mqttWildcard matching function, adapted from [https://github.com/hobbyquaker/mqtt-wildcard] 
+
 
