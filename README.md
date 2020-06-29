@@ -6,7 +6,7 @@ The default broker is  [test.mosquitto.org](https://test.mosquitto.org).
 
 ## Usage and blocks
 
-Import (Select and copy this URL to the clipboard, and paste it when importing the URL):
+Import (select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*):
 
     https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
 
