@@ -12,7 +12,7 @@ Import (select and copy the following URL to the clipboard, and then paste it wh
 
 ##
 Here you can see the blocks and a simple example to test:
-##
+###
 
 ![Minimal example](img/mqtt4snap.png)
 
