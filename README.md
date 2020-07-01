@@ -29,11 +29,15 @@ The **request** and **response** blocks are suitable for an asynchronous client-
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
+PubSub architectures, with a one-time subscription, can be considered as a generalization of Client-server architectures.
+
 ### request reporter block
 
 The **request** block is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure.
 
 ![request reporter block](img/PubSub_client-server_sync.png)
+
+PubSub architectures, with a one-time subscription and a response waiting semaphore based mechanism, can be considered as a generalization of synchronous Client-server architectures. 
 
 The waiting semaphore can be improved adding timeout management.
 
