@@ -4,9 +4,13 @@ MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/
 
 The default broker is  [test.mosquitto.org](https://test.mosquitto.org).
 
+## Hello world!
+
+Here you can run our [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml) example of MQTT4Snap */*
+
 ## Usage and blocks
 
-Import (select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*):
+If you just want to import the MQTT4Snap */* blocks library, select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
 
     https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
 
