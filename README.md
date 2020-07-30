@@ -6,7 +6,7 @@ The default broker is  [test.mosquitto.org](https://test.mosquitto.org).
 
 ## Hello world!
 
-Here you can run our [*Hello World!*](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml) example of MQTT4Snap */*
+Here you can run our [**Hello World!**](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml) example of MQTT4Snap */*
 
 ## Usage and blocks
 
