@@ -47,7 +47,7 @@ The waiting semaphore can be improved adding timeout management.
 
 ### disconnect block
 
-The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to MQTT brokers.
+The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to the MQTT brokers.
 
 
 ## Acknowledgents
