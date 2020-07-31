@@ -10,7 +10,7 @@ Here you can run our [Hello World!](https://snap.berkeley.edu/snap/snap.html#ope
 
 ## Usage and blocks
 
-If you just want to import the MQTT4Snap */* blocks library, select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
+If you just want to import the MQTT4Snap *!* blocks library, select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
 
     https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
 
