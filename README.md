@@ -15,7 +15,7 @@ If you just want to import the MQTT4Snap *!* blocks library, select and copy the
     https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
 
 ##
-Here you can see the blocks and a simple example to test:
+Here you can see the blocks and a minimum example:
 ###
 
 ![Minimal example](img/mqtt4snap.png)
