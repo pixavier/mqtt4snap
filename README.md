@@ -8,7 +8,7 @@ The default broker is  [test.mosquitto.org](https://test.mosquitto.org), but it 
 
 Here you can run our [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml) example of MQTT4Snap *!*
 
-## Usage and blocks
+## Blocks ans usage
 
 If you just want to import the MQTT4Snap *!* blocks library, select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
 
