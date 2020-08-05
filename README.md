@@ -42,6 +42,7 @@ The **request** block is suitable for a synchronous client-server architectural 
 ![request reporter block](img/PubSub_client-server_sync.png)
 
 PubSub architectures can be considered as a generalization of Client-server architectures:
+
     - An asynchronoys request-response can be converted into synchronous with a response waiting semaphore based mechanism.
     - Synchronous request-response can be emulated in PubSub with a one-time subscription and a waiting semaphore. 
     - PubSub can be emulated in Client-server if all agents can play both client and server roles.
@@ -52,7 +53,7 @@ Waiting semaphores can be improved adding timeout management.
 
 The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to the MQTT brokers.
 
-*Note:* This library allways use Quality of Service (QoS) level 0.
+**Note:** This library allways use Quality of Service (QoS) level 0.
 
 ## Acknowledgents
 
