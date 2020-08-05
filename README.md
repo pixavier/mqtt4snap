@@ -54,7 +54,7 @@ Waiting semaphores can be improved adding timeout management.
 The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to the MQTT brokers.
 
 
-**Note:** This library allways work Quality of Service (QoS) level 0.
+**Note:** This library allways work with [MQTT Quality of Service (QoS)](http://www.steves-internet-guide.com/understanding-mqtt-qos-levels-part-1) level 0.
 
 ## Acknowledgents
 
