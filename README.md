@@ -54,11 +54,11 @@ Waiting semaphores can be improved adding timeout management.
 The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to the MQTT brokers.
 
 
-**Note:** This library allways use Quality of Service (QoS) level 0.
+**Note:** This library allways work Quality of Service (QoS) level 0.
 
 ## Acknowledgents
 
-Of course, this project wouldn't exist without:
+This project wouldn't exist without:
 
 - [MQTT.js](https://github.com/mqttjs/MQTT.js)
 - The "fetch JavaScript" block from [Bernat Romagosa](https://github.com/bromagosa)
