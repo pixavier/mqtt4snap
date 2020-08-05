@@ -20,9 +20,6 @@ Here you can see the blocks and a minimum example:
 
 ![Minimal example](img/mqtt4snap.png)
 
-
-### connect block
-
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. By default, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used. The two last parameters are username and password.  
 
 ### pub / sub blocks
