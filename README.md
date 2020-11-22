@@ -61,7 +61,7 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 ## MQTT.js library
 
-MQTT4Snap *!* is based on [MQTT.js](https://github.com/mqttjs/MQTT.js). The version used is specified into the "load MQTT library" block.
+MQTT4Snap *!* is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js) library, which is load on the fly, using the "load JS from url". The version used ([unpkg CDN repo](https://unpkg.com/mqtt/)) is specified into the "load MQTT library" block.
 
 ![load MQTT library](img/loadMQTT.png)
 
