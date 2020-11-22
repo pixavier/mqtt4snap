@@ -61,14 +61,14 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 ## MQTT.js library
 
-MQTT4Snap *!* is based on [MQTT.js](https://github.com/mqttjs/MQTT.js). The version used is specified into the "load MQTT library" block
+MQTT4Snap *!* is based on [MQTT.js](https://github.com/mqttjs/MQTT.js). The version used is specified into the "load MQTT library" block.
 
 ## Acknowledgents
 
 This project wouldn't exist without:
 
 - [MQTT.js](https://github.com/mqttjs/MQTT.js)
-- The "fetch JavaScript" block from [Bernat Romagosa](https://github.com/bromagosa)
+- The "load JS from url" and "load MQTT library" blocks from [Bernat Romagosa](https://github.com/bromagosa)
 - The mqttWildcard matching function, adapted from [https://github.com/hobbyquaker/mqtt-wildcard] 
 
 
