@@ -59,6 +59,10 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 **Note:** This library allways work with [MQTT Quality of Service (QoS)](http://www.steves-internet-guide.com/understanding-mqtt-qos-levels-part-1) level 0.
 
+## MQTT.js library
+
+MQTT4Snap *!* is based on [MQTT.js](https://github.com/mqttjs/MQTT.js). The version used is specified into the "load MQTT library" block
+
 ## Acknowledgents
 
 This project wouldn't exist without:
