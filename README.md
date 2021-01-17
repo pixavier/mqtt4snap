@@ -8,7 +8,7 @@ The default broker is  [test.mosquitto.org](https://test.mosquitto.org). It is n
 
 [**Hello World without SSL**](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml) is also available without SSL., that lets connect to local MQTT broker such as Mosquitto at localhost.
 
-Here you can run a [minimum environment](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/MQTT_MinEnv.xml) example. Iy is also available [without SSL](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/MQTT_MinEnvNoSSL.xml).
+Here you can run a [minimum environment](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/MQTT_MinEnv.xml) example. It is also available [without SSL](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/MQTT_MinEnvNoSSL.xml).
 
 
 ## Blocks and usage
