@@ -74,5 +74,5 @@ This project wouldn't exist without:
 - The "load JS from url" and "load MQTT library" blocks from [Bernat Romagosa](https://github.com/bromagosa)
 - The mqttWildcard matching function, adapted from [https://github.com/hobbyquaker/mqtt-wildcard] 
 
-It was [presented](https://www.youtube.com/watch?v=-vtEcW2IUhg) in the Snap!con 2020 Conference.
+It was [presented](https://www.youtube.com/watch?v=-vtEcW2IUhg) in the [Snap!con 2020](https://www.snapcon.org/conferences/2020) Conference.
 
