@@ -1,6 +1,6 @@
 # MQTT4Snap *!*
 
-MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/wiki/MQTT) in [Snap *!*](http://snap.berkeley.edu) and [Snap4Arduino](http://snap4arduino.rocks).
+MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/wiki/MQTT) in [Snap *!*](http://snap.berkeley.edu) (Cloud Computing) and [Snap4Arduino](http://snap4arduino.rocks) (Edge Computing).
 
 The default broker is  [test.mosquitto.org](https://test.mosquitto.org). It is normally available, and it is intended to be used for proofs of concepts. If reliabiliy is needed, it is strongly recommended to use your own broker. [Mosquitto](https://mosquitto.org) is a popular open-source option, fast and easy to install. For accessing from a browser, [WebSockets support must be activated](http://www.steves-internet-guide.com/mqtt-websockets) for MQTT4Snap *!* to work. [MQTT Explorer](http://mqtt-explorer.com) is an excellent tool for monitoring broker activity.
 
