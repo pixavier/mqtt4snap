@@ -4,6 +4,8 @@ MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/
 
 The default broker is  [test.mosquitto.org](https://test.mosquitto.org). It is normally available, and it is intended to be used for proofs of concepts. If reliabiliy is needed, it is strongly recommended to use your own broker. [Mosquitto](https://mosquitto.org) is a popular open-source option, fast and easy to install. For accessing from a browser, [WebSockets support must be activated](http://www.steves-internet-guide.com/mqtt-websockets) for MQTT4Snap *!* to work. [MQTT Explorer](http://mqtt-explorer.com) is an excellent tool for monitoring broker activity.
 
+Snap *!* can be considered a [no/low code programming language](https://spectrum.ieee.org/tech-talk/computing/software/programming-without-code-no-code-software-development).
+
 ## [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml)
 
 [**Hello World! without SSL**](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml) is also available without SSL., that lets connect to local MQTT broker such as Mosquitto at localhost.
