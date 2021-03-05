@@ -52,7 +52,7 @@ PubSub architectures can be considered as a generalization of Client-server arch
 
 Waiting semaphores can be improved adding timeout management.
 
-Synchronous and asynchronous client-server can be represented in UML, regarding the arrowheads:
+Synchronous and asynchronous client-server can be represented in UML, regarding the arrowheads and the activation boxes:
 
 ![Synchronous and asynchronous client-server](img/Client-server.png)
 
