@@ -37,7 +37,6 @@ The **request** and **response** blocks are suitable for an asynchronous client-
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
-PubSub architectures, with a one-time subscription, can be considered as a generalization of Client-server architectures.
 
 ### request reporter block
 
@@ -52,6 +51,11 @@ PubSub architectures can be considered as a generalization of Client-server arch
 - PubSub can be emulated in Client-server if all agents can play both client and server roles.
 
 Waiting semaphores can be improved adding timeout management.
+
+Synchronous and asynchronous client-server can be represented in UML, regarding the arrowheads:
+
+![Synchronous and asynchronous client-server](img/Client-server.png)
+
 
 ### disconnect block
 
