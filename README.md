@@ -11,7 +11,7 @@ Snap *!* can be considered a [no/low code programming language](https://spectrum
 You can execute the Hello World! code as a starting point:
 ## [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml)
 
-[**Hello World! without SSL**](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml) is also available without SSL., that lets connect to local MQTT broker such as Mosquitto at localhost.
+[**Hello World! without SSL**](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml) is also available without SSL, that lets connect to a local MQTT broker such as default Mosquitto install at localhost.
 
 If you just want to import the MQTT4Snap *!* blocks library, select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
 
