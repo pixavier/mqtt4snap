@@ -8,7 +8,7 @@ Snap *!* can be considered a [no/low code programming language](https://spectrum
 
 ## Blocks and usage
 
-You can execute the Hello World! code as a starting point. If you use secured pages you will need the first option, else, for non secure pages you will need the second one:
+You can execute the Hello World! code as a starting point. If you use secured pages you will need the first option, else, for non secured pages, you will need the second one:
 ## [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml)
 
 ## [Hello World! without SSL](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml)
