@@ -2,7 +2,8 @@
 
 MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/wiki/MQTT) in [Snap *!*](http://snap.berkeley.edu) (Cloud Computing) and [Snap4Arduino](http://snap4arduino.rocks) (Edge Computing).
 
-There are several free online MQTT servers for testing purpose, such as [test.mosquitto.org](https://test.mosquitto.org) or [www.emqx.io/mqtt/public-mqtt5-broker](https://www.emqx.io/mqtt/public-mqtt5-broker). Never use these servers for production. One way to start is using [Mosquitto](https://mosquitto.org) on your own server. [Mosquitto](https://mosquitto.org/download) is a popular open-source option available for Linux, Windows and Mac, fast and easy to install. For accessing from a browser, [WebSockets support must be activated on the broker](http://www.steves-internet-guide.com/mqtt-websockets) for MQTT4Snap *!*. [MQTT Explorer](http://mqtt-explorer.com) is an excellent tool for monitoring broker activity.
+There are several free online MQTT servers for testing purpose, such as [test.mosquitto.org](https://test.mosquitto.org) or [www.emqx.io/mqtt/public-mqtt5-broker](https://www.emqx.io/mqtt/public-mqtt5-broker). Never use these servers for production. One way to start is using [Mosquitto](https://mosquitto.org) on your own server. [Mosquitto](https://mosquitto.org/download) is a popular open-source option available for Linux, Windows and Mac, fast and easy to install. For accessing from a browser, [WebSockets support must be activated on the broker](http://www.steves-internet-guide.com/mqtt-websockets) for MQTT4Snap *!*.
+To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an excellent free tool.
 
 Snap *!* can be considered a [no/low code programming language](https://spectrum.ieee.org/tech-talk/computing/software/programming-without-code-no-code-software-development).
 
