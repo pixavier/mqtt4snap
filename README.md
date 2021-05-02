@@ -2,7 +2,7 @@
 
 MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/wiki/MQTT) in [Snap *!*](http://snap.berkeley.edu) (Cloud Computing) and [Snap4Arduino](http://snap4arduino.rocks) (Edge Computing).
 
-The default broker is  [test.mosquitto.org](https://test.mosquitto.org). It is normally available, and it is intended to be used for proofs of concepts. If reliabiliy is needed, it is strongly recommended to use your own broker. [Mosquitto](https://mosquitto.org) is a popular open-source option, fast and easy to install. For accessing from a browser, [WebSockets support must be activated](http://www.steves-internet-guide.com/mqtt-websockets) for MQTT4Snap *!* to work. [MQTT Explorer](http://mqtt-explorer.com) is an excellent tool for monitoring broker activity.
+There are several free online MQTT servers for testing purpose, such as [test.mosquitto.org](https://test.mosquitto.org) or [www.emqx.io/mqtt/public-mqtt5-broker](https://www.emqx.io/mqtt/public-mqtt5-broker). Never use these servers for production. One way to start is using [Mosquitto](https://mosquitto.org), that is a popular open-source option, fast and easy to install. For accessing from a browser, [WebSockets support must be activated on the broker](http://www.steves-internet-guide.com/mqtt-websockets) for MQTT4Snap *!*. [MQTT Explorer](http://mqtt-explorer.com) is an excellent tool for monitoring broker activity.
 
 Snap *!* can be considered a [no/low code programming language](https://spectrum.ieee.org/tech-talk/computing/software/programming-without-code-no-code-software-development).
 
@@ -11,7 +11,9 @@ Snap *!* can be considered a [no/low code programming language](https://spectrum
 You can execute the Hello World! code as a starting point:
 ## [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml)
 
-[**Hello World! without SSL**](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml) is also available for working with http:// pages (no https://), which lets connect to a local MQTT broker such as default Mosquitto install at localhost.
+## [Hello World! without SSL](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml)
+
+Usually, the default brokers configuration only works with http:// pages (no https://). You can connect to a default local Mosquitto imstallation at localhost.
 
 If you just want to import the MQTT4Snap *!* blocks library, select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
 
