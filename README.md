@@ -13,7 +13,7 @@ You can execute the Hello World! code as a starting point. If you use secured pa
 
 ## [Hello World! without SSL](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml)
 
-Usually, the default brokers configuration only works with http:// pages (no https://). You can connect to a default local Mosquitto imstallation at localhost.
+Usually, the default brokers configuration only works with **http** pages (no **https**). Using **http** you can connect to a default local Mosquitto imstallation at localhost.
 
 If you just want to import the MQTT4Snap *!* blocks library, select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
 
