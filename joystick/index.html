@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <!--  https://github.com/bobboteck/JoyStick -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: #fafafa;
+      }
+      #joystick {
+        border: 2px solid #9C9898;
+      }
+	  .container { margin:150px auto;}
+    </style>
+	<script src="joy.js"></script>
+    <script src="https://unpkg.com/mqtt@4.2.5/dist/mqtt.js"></script>
+  </head>
+  <body>
+    <div id="joyDiv" style="width:200px;height:200px;margin-bottom:20px;margin:50px"></div>
+	<p style="position:relative;left:125px;font-family:arial">
+		<a href="https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/joystick/joy.xml">Test</a>
+	</p>
+    <script>
+
+	let broker = 'wss://test.mosquitto.org:8081';
+	let client = mqtt.connect(broker);
+
+	var joy = new JoyStick('joyDiv');
+
+	setInterval(function(){ 
+		
+		objPos = {};
+
+		objPos.x = joy.GetX(); 
+		objPos.y = joy.GetY(); 
+		objPos.posX = joy.GetPosX(); 
+		objPos.posY = joy.GetPosY(); 
+		objPos.dir = joy.GetDir();
+
+		client.publish("joy", JSON.stringify(objPos));
+
+	}, 250);
+
+    </script>
+  </body>
+</html>
+
