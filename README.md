@@ -28,7 +28,7 @@ Here you can see the blocks and a minimum example:
 
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
-We can combine Snap *!* programs with [remote joysticks](https://pixavier.github.io/mqtt4snap/joystick) via MQTT.
+We can combine Snap *!* programs with a [remote joystick](https://pixavier.github.io/mqtt4snap/joystick) via MQTT.
 
 ### pub / sub blocks
 
