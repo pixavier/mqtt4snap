@@ -8,7 +8,6 @@ To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an e
 Snap *!* can be considered a [no/low code programming language](https://spectrum.ieee.org/tech-talk/computing/software/programming-without-code-no-code-software-development).
 
 ## Blocks and usage
-
 ### (JavaScript extensions must be ticked)
 
 You can execute the Hello World! code as a starting point. If you use secured pages you will need the first option, else, for non secured pages, you will need the second one (without SSL):
