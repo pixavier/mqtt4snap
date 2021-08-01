@@ -2,7 +2,8 @@
 
 MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://en.wikipedia.org/wiki/MQTT) in [Snap *!*](http://snap.berkeley.edu) (on the cloud) and [Snap4Arduino](http://snap4arduino.rocks) (on the edge).
 
-MQTT is an open, secure publish-subscribe protocol for the Internet of Things, suitable for industrial applications, that can be used for many purposes.
+MQTT is an open and [secure](
+https://github.com/pixavier/mqtt4snap/raw/master/doc/ASecurePublish_SubscribeProtocolForInternetOfThings.pdf) publish-subscribe protocol for the Internet of Things, suitable for industrial applications, that can be used for many purposes.
 
 There are several free online MQTT servers for rapid testing purpose, such as [test.mosquitto.org](https://test.mosquitto.org) or [www.emqx.io/mqtt/public-mqtt5-broker](https://www.emqx.io/mqtt/public-mqtt5-broker). Never use these servers for production. One way to start is using [Mosquitto](https://mosquitto.org) on your own server. [Mosquitto](https://mosquitto.org/download) is a popular open-source option available for Linux, Windows and Mac, fast and easy to install. For accessing directly to a MQTT broker from a browser, [WebSockets support must be activated on the broker](http://www.steves-internet-guide.com/mqtt-websockets).
 To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an excellent free tool.
