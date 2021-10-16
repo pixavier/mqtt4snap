@@ -75,6 +75,11 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 **Note:** This library allways work with [MQTT Quality of Service (QoS)](http://www.steves-internet-guide.com/understanding-mqtt-qos-levels-part-1) level 0.
 
+## Command-line mode
+
+You can run Snap *!* in command-line mode using a [headless browser](https://en.wikipedia.org/wiki/Headless_browser). To run MQTT4Snap *!*, the JavaScript extensions must be enabled by default. It can be achieved with an own Snap *!* installation (Download source), adding this line of code "Process.prototype.enableJS = true;" in the snap.html script block of code.
+
+
 ## MQTT.js library
 
 MQTT4Snap *!* is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js) library, and loads it on the fly using the "load JS from url". The "load MQTT library" block sets the version used from the [UNPKG CDN repo](https://unpkg.com/mqtt/).
