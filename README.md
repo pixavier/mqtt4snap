@@ -61,7 +61,7 @@ PubSub architectures can be considered as a generalization of client-server arch
 - Synchronous request-response can be emulated in PubSub with a one-time subscription (one-to-one) and a waiting semaphore. 
 - PubSub can be emulated in client-server if all agents can play both client and server roles.
 
-Waiting semaphores can be improved adding timeout management.
+Waiting semaphores can be improved by adding timeout management.
 
 Synchronous and asynchronous client-server can be represented in UML, regarding the arrowheads and the activation boxes:
 
