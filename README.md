@@ -57,7 +57,7 @@ The **request** block is suitable for a synchronous client-server architectural 
 
 PubSub architectures can be considered as a generalization of client-server architectures:
 
-- An asynchronoys request-response can be converted into synchronous with a response waiting semaphore based mechanism.
+- An asynchronous request-response can be converted into synchronous with a response waiting semaphore based mechanism.
 - Synchronous request-response can be emulated in PubSub with a one-time subscription (one-to-one) and a waiting semaphore. 
 - PubSub can be emulated in client-server if all agents can play both client and server roles.
 
