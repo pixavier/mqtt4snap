@@ -68,8 +68,9 @@ Synchronous and asynchronous client-server can be represented in UML, regarding 
 ![Synchronous and asynchronous client-server](img/Client-server.png)
 
 
-### disconnect block
+### unsubscribe / disconnect blocks
 
+The **unsubscribe** block cancels a specific subscription.
 The **disconnect** block accepts the value **all** as a parameter, and then it closes all existing connections to the MQTT brokers.
 
 
