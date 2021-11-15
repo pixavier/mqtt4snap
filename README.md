@@ -8,7 +8,7 @@ https://github.com/pixavier/mqtt4snap/raw/master/doc/ASecurePublish_SubscribePro
 There are several free online MQTT server/brokers for rapid testing purpose, such as [test.mosquitto.org](https://test.mosquitto.org) or [www.emqx.io/mqtt/public-mqtt5-broker](https://www.emqx.io/mqtt/public-mqtt5-broker). Never use these servers for production. One way to start is using [Mosquitto](https://mosquitto.org) on your own server, which is a popular open-source option available for Linux, Windows and Mac, fast and easy to install. For accessing directly to a MQTT broker from a browser, [WebSockets support must be activated on the broker](http://www.steves-internet-guide.com/mqtt-websockets).
 To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an excellent free tool.
 
-Snap *!* can be considered a [no/low code programming language](https://spectrum.ieee.org/tech-talk/computing/software/programming-without-code-no-code-software-development).
+Snap *!* can be considered a block-based [low-code programming language](https://spectrum.ieee.org/tech-talk/computing/software/programming-without-code-no-code-software-development), unlike [Node-RED](https://nodered.org) that can be regarded as a flow-based low-code tool.
 
 ## Blocks and usage
 
