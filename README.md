@@ -76,6 +76,11 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 **Note:** This library always works with [MQTT Quality of Service (QoS)](http://www.steves-internet-guide.com/understanding-mqtt-qos-levels-part-1) level 0.
 
+## Example: Controlling IoT electronic devices
+
+We can use Snap *!* to [control and test](http://www.xavierpi.com/snap/snap.html#open:http://www.xavierpi.com/dt/mqtt_esp32-text.xml) IoT electronic devices (sensors and actuators9). You can try it online using a [Digital Twin of the controller](https://wokwi.com/arduino/projects/316434364352168512).
+
+
 ## Command-line mode
 
 You can run Snap *!* in command-line mode using a [headless browser](https://en.wikipedia.org/wiki/Headless_browser). To run MQTT4Snap *!*, the JavaScript extensions must be enabled by default. It can be achieved with an own Snap *!* installation (Download source), adding this line of code "Process.prototype.enableJS = true;" in the snap.html script block of code.
