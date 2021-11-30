@@ -78,7 +78,7 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 ## Example: Controlling IoT electronic devices
 
-You can develop IoT developments online using a [Digital Twin of the controller](https://wokwi.com/arduino/projects/316434364352168512). You can use Snap *!* to [control and test](http://www.xavierpi.com/snap/snap.html#open:http://www.xavierpi.com/dt/mqtt_esp32-text.xml) IoT electronic devices (sensors and actuators).
+You can develop IoT developments online using a [Digital Twin of the controller](https://wokwi.com/arduino/projects/316434364352168512). You can use Snap *!* to [control and test](http://www.xavierpi.com/snap/snap.html#open:http://www.xavierpi.com/dt/mqtt_esp32-text.xml) these IoT electronic devices (sensors and actuators).
 
 
 ## Command-line mode
