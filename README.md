@@ -53,6 +53,7 @@ The **request** and **response** blocks are suitable for an asynchronous client-
 
 The **request** block is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure. This behavior corresponds to the Node.js [Replyer module](https://github.com/jsdario/replyer).
 
+
 ![request reporter block](img/PubSub_client-server_sync.png)
 
 PubSub architectures can be considered as a generalization of client-server architectures:
