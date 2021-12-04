@@ -51,7 +51,7 @@ The **request** and **response** blocks are suitable for an asynchronous client-
 
 ### request reporter block
 
-The **request** block is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure.
+The **request** block is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure. This behavior corresponds to the Node.js [Replyer module](https://github.com/jsdario/replyer).
 
 ![request reporter block](img/PubSub_client-server_sync.png)
 
@@ -61,7 +61,7 @@ PubSub architectures can be considered as a generalization of client-server arch
 - Synchronous request-response can be emulated in PubSub with a one-time subscription (one-to-one) and a waiting semaphore. 
 - PubSub can be emulated in client-server if all agents can play both client and server roles.
 
-Waiting semaphores can be improved by adding timeout management.
+The waiting semaphore can be improved by adding timeout management.
 
 Synchronous and asynchronous client-server can be represented in UML, regarding the arrowheads and the activation boxes:
 
