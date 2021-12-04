@@ -44,7 +44,7 @@ The **pub** and **sub** blocks are suitable for PubSub architecture based implem
 
 ### request / response blocks
 
-The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure. The call corresponds to the correlation data concept introduced in MQTT5. 
+The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure. The idCall corresponds to the correlation data concept introduced in MQTT5. 
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
