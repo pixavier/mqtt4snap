@@ -8,7 +8,7 @@ https://github.com/pixavier/mqtt4snap/raw/master/doc/ASecurePublish_SubscribePro
 There are several free online MQTT server/brokers for rapid testing purpose, such as [test.mosquitto.org](https://test.mosquitto.org), [mqtt.eclipseprojects.io](https://mqtt.eclipseprojects.io/) or [www.emqx.io/mqtt/public-mqtt5-broker](https://www.emqx.io/mqtt/public-mqtt5-broker). Never use these servers for production. One way to start is using [Mosquitto](https://mosquitto.org) on your own server, which is a popular open-source option available for Linux, Windows and Mac, fast and easy to install. For accessing directly to a MQTT broker from a browser, [WebSockets support must be activated on the broker](http://www.steves-internet-guide.com/mqtt-websockets).
 To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an excellent free tool.
 
-Snap *!* can be considered a block-based [low-code programming language](https://spectrum.ieee.org/tech-talk/computing/software/programming-without-code-no-code-software-development), unlike [Node-RED](https://nodered.org), that can be regarded as a flow-based low-code tool.
+Snap *!* can be considered a block-based [low-code programming language](https://upcommons.upc.edu/handle/2117/363087?locale-attribute=en), unlike [Node-RED](https://cookbook.nodered.org/mqtt/connect-to-broker), that can be regarded as a flow-based low-code tool.
 
 ## Blocks and usage
 
@@ -42,14 +42,14 @@ The **pub** and **sub** blocks are suitable for PubSub architecture based implem
 
 ### request / response blocks
 
-The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure. The **idCall** corresponds to the correlationData field, and callbackTopic corresponds to the responseTopic field, both introduced in MQTT 5.
+The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure.  In our case, we add a call identifier (idCall-*) at the end of the topic to enable the response via callback. The **idCall** corresponds to the correlationData field, and callbackTopic corresponds to the responseTopic field, both introduced in [MQTT 5](https://www.emqx.com/en/blog/mqtt5-request-response).
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
 
 ### request reporter block
 
-The **request** block is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure. This behavior corresponds to the Node.js [Replyer module](https://github.com/jsdario/replyer).
+The **request** block is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure. Some implementations are available with MQTT 3.1.1, such as the Node.js [Replyer module](https://github.com/jsdario/replyer). Find here a minimum Python implementation of a synchronous MQTT 3.1.1 echo server for the request reporter block testing. 
 
 
 ![request reporter block](img/PubSub_client-server_sync.png)
