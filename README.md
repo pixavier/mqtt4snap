@@ -42,7 +42,7 @@ The **pub** and **sub** blocks are suitable for PubSub architecture based implem
 
 ### request / response blocks
 
-The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure.  In our case, we add a call identifier (idCall-*) at the end of the topic to enable the response via callback. The **idCall** corresponds to the correlationData field, and callbackTopic corresponds to the responseTopic field, both introduced in [MQTT 5](https://www.emqx.com/en/blog/mqtt5-request-response).
+The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure.  In our case, we add a call identifier (idCall-*) as callbacktopic at the end of the topic to enable the response. The **idCall** corresponds to the correlationData field, and callbackTopic corresponds to the responseTopic field, both introduced in [MQTT 5](https://www.emqx.com/en/blog/mqtt5-request-response).
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
