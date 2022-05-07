@@ -25,12 +25,14 @@ You can execute the Hello World! code as a starting point. If you use secured pa
 
 Usually, the default brokers configuration only works with **http** pages (no **https**). Using **http** you can connect to a default local Mosquitto imstallation at localhost.
 
-If you just want to import the MQTT4Snap *!* blocks library, copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
+If you want to import the MQTT4Snap *!* blocks library, copy the following URL to the clipboard, and then paste it when importing into Snap *!*:
 
     https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
 
 ##
+
 Here you can see a minimum example:
+
 ###
 ![Minimal example](img/minimum_example.png)
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
