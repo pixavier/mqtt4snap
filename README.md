@@ -2,8 +2,6 @@
 
 MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://mqtt.org) in [Snap *!*](http://snap.berkeley.edu) (in the cloud) and [Snap4Arduino](http://snap4arduino.rocks) (in the edge).
 
-![MQTT Extension](img/mqtt4snap.png)
-
 MQTT is an open and [secure](
 https://github.com/pixavier/mqtt4snap/raw/master/doc/ASecurePublish_SubscribeProtocolForInternetOfThings.pdf) publish-subscribe protocol for the Internet of Things, suitable for industrial applications and [Digital Twins](https://www.digitaltwinconsortium.org/initiatives/the-definition-of-a-digital-twin.htm).
 
@@ -13,6 +11,8 @@ To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an e
 Snap *!* can be considered a block-based [low-code programming language](https://upcommons.upc.edu/handle/2117/363087?locale-attribute=en), unlike [Node-RED](https://cookbook.nodered.org/mqtt/connect-to-broker), that can be regarded as a flow-based low-code tool.
 
 ## Blocks and usage
+
+![MQTT Extension](img/mqtt4snap.png)
 
 You can execute the Hello World! code as a starting point. If you use secured pages you will need the first option, else, for non secured pages, you will need the second one (without SSL):
 ### (JavaScript extensions must be ticked)
