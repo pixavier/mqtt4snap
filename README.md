@@ -32,9 +32,7 @@ If you just want to import the MQTT4Snap *!* blocks library, copy the following 
 ##
 Here you can see a minimum example:
 ###
-
 ![Minimal example](img/minimum_example.png)
-
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
 We can combine Snap *!* programs with a [remote joystick](https://pixavier.github.io/mqtt4snap/joystick) via MQTT.
