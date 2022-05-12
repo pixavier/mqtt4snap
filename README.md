@@ -47,14 +47,14 @@ The **pub** and **sub** blocks are suitable for PubSub architecture based implem
 
 ### request / response blocks
 
-The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure.  We add a call identifier (idCall-x) as the callbacktopic at the end of the topic to enable the responder to publish the response. An example of topic is "topicName/readx/idCall-9876.1". The **idCall-x** corresponds to the responseTopic field introduced in [MQTT 5](https://www.emqx.com/en/blog/mqtt5-request-response). We use the 3.1.1 MQTT version to keep compatibility with microcontroller implementations such as the [PubSubClient library](https://www.arduino.cc/reference/en/libraries/pubsubclient).
+The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure.  We add the response topic at the end of the calling topic, behind the @ sign, acting as an call identifier. It enables the responder to publish the response to the response topic. An example of topic is "topicName/readx@9876.1". The **idCall** corresponds to the responseTopic field introduced in [MQTT 5](https://www.emqx.com/en/blog/mqtt5-request-response). We use the 3.1.1 MQTT version to keep compatibility with microcontroller implementations such as the [PubSubClient library](https://www.arduino.cc/reference/en/libraries/pubsubclient).
 
 ![request response blocks](img/PubSub_client-server_async.png)
 
 
 ### request reporter block
 
-The **request reporter block** is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure, and it is the synchronous version of the previous asynchronous **request block** based on the **idCall-x** last subtopic. Some similar idea implementations such as the Node.js [Replyer module](https://github.com/jsdario/replyer) are available. Find here a minimum [Python implementation](https://github.com/pixavier/mqtt4snap/blob/master/sync_echo_mqtt.py) of a synchronous MQTT 3.1.1 echo server for the **request block** reporter testing. Find here a minimum synchronous MQTT 3.1.1 callback function [implemented on an ESP32 microcontroller](https://wokwi.com/projects/328227183923298899).
+The **request reporter block** is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure, and it is the synchronous version of the previous asynchronous **request block** based on the response topic. Some similar idea implementations such as the Node.js [Replyer module](https://github.com/jsdario/replyer) are available. Find here a minimum [Python implementation](https://github.com/pixavier/mqtt4snap/blob/master/sync_echo_mqtt.py) of a synchronous MQTT 3.1.1 echo server for the **request block** reporter testing. Find here a minimum synchronous MQTT 3.1.1 callback function [implemented on an ESP32 microcontroller](https://wokwi.com/projects/328227183923298899).
 
 The **example MQTT response report block** combined with the **response block** shows the same echo example fully implemented in Snap *!*.
 
