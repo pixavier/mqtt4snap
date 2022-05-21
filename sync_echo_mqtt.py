@@ -14,10 +14,10 @@ def on_message(clientId, userdata, message):
     try:
         payload = message.payload.decode("utf-8", errors='ignore')
         fulltopic = message.topic
-        if fulltopic.index('/idCall-') > 0:
-            topic = fulltopic[:fulltopic.rindex('/')]
-            callbackTopic = fulltopic[fulltopic.rindex('/')+1:]
-            mqttc.publish(callbackTopic, 'Echo from MQTT 3.1 bridge: ' + payload)	
+        if fulltopic.index('/@') > 0:
+            topic = fulltopic[:fulltopic.rindex('@')]
+            callbackTopic = fulltopic[fulltopic.rindex('@')+1:]
+            mqttc.publish(callbackTopic, 'Echo from MQTT 3.1.1 bridge: ' + payload)	
             
             print('------------------------------')
             print('full topic: ' + fulltopic)
@@ -31,6 +31,6 @@ def on_message(clientId, userdata, message):
     
 
 mqttc.on_message = on_message
-mqttc.subscribe('topicName/#')
-print ("MQTT 3.1 bridge running ...")
+mqttc.subscribe('name/#')
+print ("MQTT 3.1.1 bridge running ...")
 mqttc.loop_forever()
