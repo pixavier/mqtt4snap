@@ -31,6 +31,6 @@ def on_message(clientId, userdata, message):
     
 
 mqttc.on_message = on_message
-mqttc.subscribe('name/#')
+mqttc.subscribe('topicName/#')
 print ("MQTT 3.1.1 bridge running ...")
 mqttc.loop_forever()
