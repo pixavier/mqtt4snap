@@ -5,6 +5,7 @@ from datetime import datetime
 semaphore = 0
 resp = ''
 
+#topic = 'topicName'
 topic = 'name'
 responseTopic = 'name2/callback'
 payload = 'Hello'
