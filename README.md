@@ -35,7 +35,7 @@ If you want to import the old MQTT4Snap *!* blocks library, copy the following U
 
 ##
 
-Here you can see a minimum example:
+Here you can see a minimum example (please consult the blocks help):
 
 ###
 ![Minimal example](img/minimum_example.png)
