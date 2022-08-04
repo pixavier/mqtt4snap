@@ -22,6 +22,7 @@ You can execute the Hello World! code as a starting point. If you use secured pa
 ## Try the official MQTT extension at:  [Hello World! (Without SSL)](https://snap.berkeley.edu/versions/dev/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/upgrades/HelloWorldMQTT.xml)
 
 (JavaScript extensions must be ticked with the old version)
+
 **The old library available at:  [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml)**
 
 **The old library available at:  [Hello World! (without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml)**
