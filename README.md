@@ -19,7 +19,7 @@ You can execute the Hello World! code as a starting point. If you use secured pa
 ## Try the new MQTT extension at:  [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/upgrades/HelloWorldMQTT.xml)
 (The [new extension](https://snap.berkeley.edu/versions/dev/libraries/mqttExtension.js) is available in the Snap *!* library list as "MQTT" and does not need the activation of JavaScript extensions)
 
-## Try the new MQTT extension at:  [Hello World!] (Without SSL) (https://snap.berkeley.edu/versions/dev/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/upgrades/HelloWorldMQTT.xml)
+## Try the new MQTT extension at:  [Hello World! (Without SSL)] (https://snap.berkeley.edu/versions/dev/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/upgrades/HelloWorldMQTT.xml)
 
 ### (JavaScript extensions must be ticked with the old version)
 ## Try at:  [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml)
