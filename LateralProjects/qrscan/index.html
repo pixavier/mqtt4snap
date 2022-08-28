@@ -24,7 +24,7 @@
   <input id="outputData" type="text" value="">
   
   <script>
-	let client = mqtt.connect(broker.value, {username:user.value, password:pass.value});
+	let client = mqtt.connect(broker.value,{username:user.value,password:pass.value});
 	client.subscribe(topic.value);
 
     let video = document.createElement("video");
@@ -35,7 +35,7 @@
 	state.style.backgroundColor = '#00FF00';
 
     // Use facingMode: environment to attemt to get the front camera on phones
-    navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } }).then(function(stream) {
+    navigator.mediaDevices.getUserMedia({video:{facingMode:"environment"}}).then(function(stream) {
       video.srcObject = stream;
       video.setAttribute("playsinline", true); // required to tell iOS safari we don't want fullscreen
       video.play();
@@ -45,8 +45,8 @@
     function tick() {
       if (video.readyState === video.HAVE_ENOUGH_DATA) {
         canvasElement.hidden = false;
-        canvasElement.height = video.videoHeight;
-        canvasElement.width = video.videoWidth;
+        canvasElement.width = 300;
+        canvasElement.height = 250;
         canvas.drawImage(video, 0, 0, canvasElement.width, canvasElement.height);
         var imageData = canvas.getImageData(0, 0, canvasElement.width, canvasElement.height);
         var code = jsQR(imageData.data, imageData.width, imageData.height, {
