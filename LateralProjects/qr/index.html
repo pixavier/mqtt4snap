@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cross-Browser QRCode generator for Javascript</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="icon" type="image/png" href="/android-icon-192x192.png" sizes="255x255">
+    <script type="text/javascript" src="qrcode.js"></script>
+	<script src="https://unpkg.com/mqtt@4.2.5/dist/mqtt.js"></script>
+  </head>
+  <body style="background-color:#ffffff;font-family:Arial,Helvetica,Sans-Serif;Color:#000000;text-align:center;">
+  <div>
+  <br>
+  <label>Broker: </label>
+  <input id="broker" type="text" value="ws://broker.emqx.io:8083/mqtt" size="30"><br>
+  <label>Username: </label>
+  <input id="user" type="text" value=""><br>
+  <label>Password: </label>
+  <input id="pass" type="text" value=""><br>
+  <label>Topic: </label>
+  <input id="topic" type="text" value="topicName" size="30"><br>
+  <br><br><br>
+  <div>
+	  <svg width="200" height="200">
+		<g id="qrcode">
+	  </svg>
+  </div>
+  <br><br><br>
+  <input id="text" type="text" value="http://jindo.dev.naver.com/collie" style="width:95%" onblur="onBlur()" onkeydown="onKeyDown(event)">
+  </div>
+  <script type="text/javascript">
+  let elText = document.getElementById("text");
+  let broker = document.getElementById("broker");
+  let user = document.getElementById("user");
+  let pass = document.getElementById("pass");
+  let topic = document.getElementById("topic");
+
+//  let broker = 'wss://test.mosquitto.org:8081';
+//  let broker = 'ws://broker.emqx.io:8083/mqtt';
+//  let broker = 'wss://broker.emqx.io:8084/mqtt';
+//  let broker = 'ws://vps656540.ovh.net:8081';
+
+//  let client = mqtt.connect(broker.value);
+  let client = mqtt.connect(broker.value, {username:user.value, password:pass.value});
+  client.subscribe(topic.value);
+
+  client.on("message", function (topic, payload) {
+//    alert([topic, payload].join(": "));
+	elText.value = payload;
+    makeCode();
+  });
+
+  var qrcode = new QRCode(document.getElementById("qrcode"), {
+      useSVG: true
+  });
+
+  function makeCode() {		
+/*  
+      if (!elText.value) {
+          alert("Input a text");
+          elText.focus();
+          return;
+      }
+*/	  
+      qrcode.makeCode(elText.value);
+  }
+
+  makeCode();
+
+  function onBlur() {
+     makeCode();
+  }
+
+  function onKeyDown(e) {
+	if (e.keyCode == 13) {
+	  makeCode();
+	}
+  }
+
+    </script>
+  </body>
+</html>
