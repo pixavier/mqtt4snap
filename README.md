@@ -99,9 +99,9 @@ You can run Snap *!* in command-line mode using a [headless browser](https://en.
 
 ## MQTT.js library
 
-MQTT4Snap *!* is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js) library. 
+MQTT4Snap *!* is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js) library.
 
-**Deprectaed:** The old library loads it on the fly using the "load JS from url" block. The "load MQTT library" block sets the version used from the [UNPKG CDN repo](https://unpkg.com/mqtt/).
+**Deprectaed:** The "load MQTT library" block loads the module on the fly from the [UNPKG CDN repo](https://unpkg.com/mqtt/).
 
 ![load MQTT library](img/loadMQTT.png)
 
