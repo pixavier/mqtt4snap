@@ -10,28 +10,31 @@ To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an e
 
 Snap *!* can be considered a block-based [low-code programming language](https://upcommons.upc.edu/handle/2117/363087?locale-attribute=en), unlike [Node-RED](https://cookbook.nodered.org/mqtt/connect-to-broker), that can be regarded as a flow-based low-code tool.
 
+## [Hello World!](http://extensions.snap.berkeley.edu/snap/snap.html#run:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/HelloWorld.xml)
+This Hello World! example shows how PubSub-based aqchitectures let implement IoT with no friction.
+
 ## Blocks and usage
 
 ![MQTT Extension](img/mqtt4snap.png)
 
 This demo shows step by step the basic functionalities. If you use secured pages you will need the first option, else, for non secured pages, you will need the second one (without SSL):
 
-## [Demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/upgrades/HelloWorldMQTT.xml)
+## [Demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/Demo.xml)
 (The [new extension](https://snap.berkeley.edu/versions/dev/libraries/mqttExtension.js) is available in the Snap *!* library list as "MQTT" and does not need the activation of JavaScript extensions)
 
-## [Demo (Without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/upgrades/HelloWorldMQTT.xml)
+## [Demo (Without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/Demo.xml)
 
 (JavaScript extensions must be ticked with the old version)
 
-**[Old library demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld.xml)**
+**[Old library demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOld.xml)**
 
-**[Old library demo (without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/HelloWorld_NoSSL.xml)**
+**[Old library demo (without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOldNoSSL.xml)**
 
 Usually, the default brokers configuration only works with **http** pages (no **https**). Using **http** you can connect to a default local Mosquitto imstallation at localhost.
 
 If you want to import the old MQTT4Snap *!* blocks library, copy the following URL to the clipboard and paste it when importing into Snap *!*:
 
-    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
+    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/old_dist/mqtt-standalone.xml
 
 ##
 
