@@ -23,8 +23,8 @@
 		<a href="https://snap.berkeley.edu/snap/snap.html#run:https://pixavier.github.io/mqtt4snap/LateralProjects/joystick/joy.xml">Test</a>
 	</p>
     <script>
-
-	let broker = 'wss://test.mosquitto.org:8081';
+	    
+	let broker = 'wss://broker.emqx.io:8084/mqtt';
 	let client = mqtt.connect(broker);
 
 	var joy = new JoyStick('joyDiv');
