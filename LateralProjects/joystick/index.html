@@ -30,9 +30,11 @@
 	var joy = new JoyStick('joyDiv');
 
 	setInterval(function(){ 
-		objPos = '' + joy.GetPosX() + ';' + joy.GetPosY();
+		objPos = {};
+		objPos.posX = joy.GetPosX();
+		objPos.posY = joy.GetPosY();
 		// joy.GetX(), joy.GetY(), joy.GetDir()
-		client.publish("joy", objPos);
+		client.publish("joy", JSON.stringify(objPos));
 	}, 250);
 
     </script>
