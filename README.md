@@ -11,7 +11,7 @@ To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an e
 Snap *!* can be considered a block-based [low-code programming language](https://upcommons.upc.edu/handle/2117/363087?locale-attribute=en), unlike [Node-RED](https://cookbook.nodered.org/mqtt/connect-to-broker), that can be regarded as a flow-based low-code tool.
 
 ## [Hello World!](http://extensions.snap.berkeley.edu/snap/snap.html#run:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/HelloWorld.xml)
-This Hello World! example shows how PubSub-based aqchitectures let implement IoT with no friction.
+This Hello World! example shows how PubSub-based aqchitectures let implement IoT with no friction. It can be extended with IoT devices like [this](https://wokwi.com/projects/344419550728553044).
 
 ## Blocks and usage
 
