@@ -92,7 +92,7 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 Snap *!* can be used for controling and testing IoT devices. [Here](https://www.youtube.com/watch?v=L1kAdtWJoAE&t=15m41s) you can see a demo with a physical twin at the Snap!Con 2021.
 
-[Wokwi](https://wokwi.com) is an online Digital Twin for IoT developments. You can see an example [Here](https://wokwi.com/projects/341895401936257620), which can [be controlled](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/iot_devices/iot_device_test.xml) and tested with Snap *!*.
+[Wokwi](https://wokwi.com) is an online Digital Twin for IoT developments. You can see an executable MQTT example [here](https://wokwi.com/projects/341895401936257620), which can [be controlled](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/iot_devices/iot_device_test.xml) and tested with Snap *!*.
 
 ## Command-line mode
 
