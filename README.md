@@ -11,7 +11,7 @@ To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an e
 Snap *!* can be considered a block-based [low-code programming language](https://upcommons.upc.edu/handle/2117/363087?locale-attribute=en), unlike [Node-RED](https://cookbook.nodered.org/mqtt/connect-to-broker), that can be regarded as a flow-based low-code tool.
 
 ## [Hello World!](http://extensions.snap.berkeley.edu/snap/snap.html#run:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/HelloWorld.xml)
-This Hello World! example shows how PubSub-based aqchitectures let implement IoT with no friction. It can be extended with IoT devices like [this](https://wokwi.com/projects/344419550728553044).
+This Hello World! example shows how PubSub-based aqchitectures let implement IoT with no friction. It can be extended with IoT devices like [this](https://wokwi.com/projects/344419550728553044) (An IoT device Digital Twin in this case).
 
 ## Blocks and usage
 
@@ -90,7 +90,9 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 ## Example: Controlling IoT electronic devices
 
-You can develop IoT developments online using a [Digital Twin of the controller](https://wokwi.com/projects/341895401936257620) such as [Wokwi](https://wokwi.com). You can use Snap *!* to [control and test](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/iot_devices/iot_device_test.xml) these IoT electronic devices (sensors and actuators). [Here](https://www.youtube.com/watch?v=L1kAdtWJoAE&t=15m41s) you can see a demo with a physical twin at the Snap!Con 2021.
+Snap *!* can be used for controling and testing IoT devices. [Here](https://www.youtube.com/watch?v=L1kAdtWJoAE&t=15m41s) you can see a demo with a physical twin at the Snap!Con 2021.
+
+[Wokwi](https://wokwi.com) is an online Digital Twin for IoT developments. You can see an example [Here](https://wokwi.com/projects/341895401936257620), which can [be controlled](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/iot_devices/iot_device_test.xml) and tested with Snap *!*.
 
 ## Command-line mode
 
