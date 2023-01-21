@@ -36,7 +36,7 @@ Here you can see a minimum example (please consult the blocks help):
 
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
-Here there is a [JSON example](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoMQTT_JSON.xml) using a mutiline payload input.
+Here there is a **[JSON example](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoMQTT_JSON.xml) using a mutiline payload input.
 
 We can combine Snap *!* programs with a [remote joystick](https://pixavier.github.io/mqtt4snap/LateralProjects/joystick/index.html) via MQTT (in [LateralProjects](https://github.com/pixavier/mqtt4snap/tree/master/LateralProjects/joystick)).
 
