@@ -24,17 +24,8 @@ This demo shows step by step the basic functionalities. If you use secured pages
 
 ## [Demo (Without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/Demo.xml)
 
-(JavaScript extensions must be ticked with the old version)
-
-**[Old library demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOld.xml)**
-
-**[Old library demo (without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOldNoSSL.xml)**
 
 Usually, the default brokers configuration only works with **http** pages (no **https**). Using **http** you can connect to a default local Mosquitto imstallation at localhost.
-
-If you want to import the old MQTT4Snap *!* blocks library, copy the following URL to the clipboard and paste it when importing into Snap *!*:
-
-    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/old_dist/mqtt-standalone.xml
 
 ##
 
@@ -47,6 +38,17 @@ WebSocket protocol (ws:// or wss://) can be specified in the broker field. If no
 Here there is a [JSON example](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoMQTT_JSON.xml) using a mutiline payload input.
 
 We can combine Snap *!* programs with a [remote joystick](https://pixavier.github.io/mqtt4snap/LateralProjects/joystick/index.html) via MQTT (in [LateralProjects](https://github.com/pixavier/mqtt4snap/tree/master/LateralProjects/joystick)).
+
+
+**[Old library demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOld.xml)**
+(JavaScript extensions must be ticked with the old version when using old library)
+
+**[Old library demo (without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOldNoSSL.xml)**
+
+If you want to import the old MQTT4Snap *!* blocks library, copy the following URL to the clipboard and paste it when importing into Snap *!*:
+
+    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/old_dist/mqtt-standalone.xml
+
 
 ### pub / sub blocks
 
