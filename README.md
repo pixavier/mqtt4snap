@@ -33,6 +33,7 @@ Here you can see a minimum example (please consult the blocks help):
 
 ###
 ![Minimal example](img/minimum_example.png)
+
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
 Here there is a [JSON example](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoMQTT_JSON.xml) using a mutiline payload input.
