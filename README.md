@@ -61,7 +61,7 @@ The **pub** and **sub** blocks are suitable for PubSub architecture based implem
 
 ![pub sub blocks](img/PubSub.png)
 
-If you get a message when subscribing to a topic is because there is retained note. To clean it, publish an empty message to the topic with the retained flag to false.
+If you get a message when subscribing to a topic is because there is retained note. To clean it, publish an empty message to the topic with the retain flag to false.
 
 ### request / response blocks
 
