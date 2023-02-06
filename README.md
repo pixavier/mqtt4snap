@@ -36,11 +36,11 @@ Here you can see a minimum example (please consult the blocks help):
 
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
-JSON block helps to manage JSON messages
+JSON block helps to manage JSON messages:
 
 ![JSON block](img/JSON_block.png)
 
-Click here to execute a **[JSON example](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoMQTT_JSON.xml)** using a mutiline payload input.
+Click here to execute a **[JSON block example](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoMQTT_JSON.xml)**. You can export the JSON block and then import it in your project.
 
 We can combine Snap *!* programs with a [remote joystick](https://pixavier.github.io/mqtt4snap/LateralProjects/joystick/index.html) via MQTT (in [LateralProjects](https://github.com/pixavier/mqtt4snap/tree/master/LateralProjects/joystick)).
 
