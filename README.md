@@ -61,6 +61,8 @@ The **pub** and **sub** blocks are suitable for PubSub architecture based implem
 
 ![pub sub blocks](img/PubSub.png)
 
+If you get a message when subscribing to a topic is because there is retained note. To clean it, publish an empty message to the topic with the retained flag to false.
+
 ### request / response blocks
 
 The **request** and **response** blocks are suitable for an asynchronous client-server architectural approach on a PubSub based infrastructure.  We add the response topic at the end of the calling topic, behind the last @ sign, acting as an call identifier. It enables the responder to publish the response to the response topic. An example of topic is "topicName/readx/@9876.1". The **idCall** corresponds to the responseTopic field introduced in [MQTT 5](https://www.emqx.com/en/blog/mqtt5-request-response). We use the 3.1.1 MQTT version to keep compatibility with microcontroller implementations such as the [PubSubClient library](https://www.arduino.cc/reference/en/libraries/pubsubclient).
