@@ -38,7 +38,7 @@ WebSocket protocol (ws:// or wss://) can be specified in the broker field. If no
 
 JSON block helps to manage JSON messages
 
-[JSON block](img/JSON_block.png)
+![JSON block](img/JSON_block.png)
 
 Click here to execute a **[JSON example](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoMQTT_JSON.xml)** using a mutiline payload input.
 
