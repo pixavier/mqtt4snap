@@ -36,7 +36,7 @@ Here you can see a minimum example (please consult the blocks help):
 
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
-JSON block helps to manage JSON messages:
+**JSON block** helps to manage JSON messages:
 
 ![JSON block](img/JSON_block.png)
 
