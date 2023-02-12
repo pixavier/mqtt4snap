@@ -36,7 +36,7 @@ Here you can see a minimum example (please consult the blocks help):
 
 WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
-**JSON block** helps to manage JSON messages:
+**JSON block** helps to manage [JSON](https://www.json.org) messages:
 
 ![JSON block](img/JSON_block.png)
 
@@ -127,7 +127,7 @@ This project wouldn't exist without:
 - The "load JS from url" and "load MQTT library" blocks from [Bernat Romagosa](https://github.com/bromagosa)
 - The mqttWildcard matching function, adapted from [https://github.com/hobbyquaker/mqtt-wildcard] 
 
-**To [Simon Walters](https://github.com/cymplecy) for its [implementation as the Snap *!* MQTT Extension](https://github.com/pixavier/mqtt4snap/issues/3).**
+**To [Simon Walters](https://github.com/cymplecy) for its [implementation as the Snap *!* MQTT Extension proposal](https://github.com/pixavier/mqtt4snap/issues/3).**
 
 MQTT4Snap *!*  was presented in the [Snap!Con 2020](https://www.snapcon.org/conferences/2020/program/proposals/63) Conference.
 
