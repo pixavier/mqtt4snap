@@ -1,6 +1,6 @@
 # MQTT4Snap *!*
 
-MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://mqtt.org) in [Snap *!*](http://snap.berkeley.edu) (in the cloud) and [Snap4Arduino](http://snap4arduino.rocks) (in the edge).
+MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://mqtt.org](https://www.hivemq.com/info/mqtt-essentials) in [Snap *!*](http://snap.berkeley.edu) (in the cloud) and [Snap4Arduino](http://snap4arduino.rocks) (in the edge).
 
 MQTT is an open and [secure](
 https://github.com/pixavier/mqtt4snap/raw/master/doc/ASecurePublish_SubscribeProtocolForInternetOfThings.pdf) publish-subscribe standard protocol for the Internet of Things ([ISO/IEC 20922](https://www.iso.org/standard/69466.html)), suitable for industrial applications and [Digital Twins](https://www.digitaltwinconsortium.org/initiatives/the-definition-of-a-digital-twin.htm).
