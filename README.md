@@ -1,6 +1,6 @@
-# MQTT4Snap *!*
+# MQTT4Snap<em>!</em>
 
-MQTT4Snap *!*  is a Snap *!*  library for using [MQTT](https://www.hivemq.com/info/mqtt-essentials) in [Snap *!*](http://snap.berkeley.edu) (in the cloud) and [Snap4Arduino](http://snap4arduino.rocks) (in the edge).
+MQTT4Snap<em>!</em>  is a Snap<em>!</em>  library for using [MQTT](https://www.hivemq.com/info/mqtt-essentials) in [Snap<em>!</em>](http://snap.berkeley.edu) (in the cloud) and [Snap4Arduino](http://snap4arduino.rocks) (in the edge).
 
 MQTT is an open and [secure](
 https://github.com/pixavier/mqtt4snap/raw/master/doc/ASecurePublish_SubscribeProtocolForInternetOfThings.pdf) publish-subscribe standard protocol for the Internet of Things ([ISO/IEC 20922](https://www.iso.org/standard/69466.html)), suitable for industrial applications and [Digital Twins](https://www.digitaltwinconsortium.org/initiatives/the-definition-of-a-digital-twin.htm).
@@ -8,10 +8,10 @@ https://github.com/pixavier/mqtt4snap/raw/master/doc/ASecurePublish_SubscribePro
 There are several [MQTT public free server/brokers](https://iotbyhvm.ooo/mqtt-public-brokers) for rapid testing purpose, provide by Mosquitto ([test.mosquitto.org](https://test.mosquitto.org)), Eclipse Projects ([mqtt.eclipseprojects.io](https://mqtt.eclipseprojects.io/)), HiveMQ ([broker.hivemq.com](https://www.hivemq.com/mqtt/public-mqtt-broker/)) or EMQX ([www.emqx.com/en/mqtt/public-mqtt5-broker](https://www.emqx.com/en/mqtt/public-mqtt5-broker)). Never use these servers for production. One way to start is using [Mosquitto](https://mosquitto.org) on your own server, which is a popular open-source option available for Linux, Windows and Mac, fast and easy to install. For accessing directly to a MQTT broker from a browser, [WebSockets support must be activated on the broker](http://www.steves-internet-guide.com/mqtt-websockets).
 To monitor de broker activity, [MQTT Explorer](http://mqtt-explorer.com) is an excellent free tool.
 
-Snap *!* can be considered a block-based [low-code programming language](https://upcommons.upc.edu/handle/2117/363087?locale-attribute=en), unlike [Node-RED](https://cookbook.nodered.org/mqtt/connect-to-broker), that can be regarded as a flow-based low-code tool.
+Snap<em>!</em> can be considered a block-based [low-code programming language](https://upcommons.upc.edu/handle/2117/363087?locale-attribute=en), unlike [Node-RED](https://cookbook.nodered.org/mqtt/connect-to-broker), that can be regarded as a flow-based low-code tool.
 
 ## [Hello World!](http://extensions.snap.berkeley.edu/snap/snap.html#run:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/HelloWorld.xml)
-This Hello World! example shows how Snap *!* can help to implement PubSub-based architectures with frictionless user experience. The example can be extended with IoT devices like [this one based on ESP32](https://wokwi.com/projects/344419550728553044) (device Digital Twin in this case).
+This Hello World! example shows how Snap<em>!</em> can help to implement PubSub-based architectures with frictionless user experience. The example can be extended with IoT devices like [this one based on ESP32](https://wokwi.com/projects/344419550728553044) (device Digital Twin in this case).
 
 ## Blocks and usage
 
@@ -20,7 +20,7 @@ This Hello World! example shows how Snap *!* can help to implement PubSub-based 
 This demo shows step by step the basic functionalities. If you use secured pages you will need the first option, else, for non secured pages, you will need the second one (without SSL):
 
 ## [Demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/Demo.xml)
-(The [new extension](https://snap.berkeley.edu/versions/dev/libraries/mqttExtension.js) is available in the Snap *!* library list as "MQTT" and does not need the activation of JavaScript extensions)
+(The [new extension](https://snap.berkeley.edu/versions/dev/libraries/mqttExtension.js) is available in the Snap<em>!</em> library list as "MQTT" and does not need the activation of JavaScript extensions)
 
 ## [Demo (Without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/Demo.xml)
 
@@ -34,11 +34,11 @@ Here you can see a minimum example (please consult the blocks help):
 ###
 ![Minimal example](img/minimum_example.png)
 
-WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap *!* webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
+WebSocket protocol (ws:// or wss://) can be specified in the broker field. If not specified, if the Snap<em>!</em> webpage is http:// type, then ws:// is used, and if it is https:// type then wss:// is used.
 
 The standard "split" block supports [JSON](https://www.json.org) decodification, which can be used in conjunction with with the "item" block.
 
-We can combine Snap *!* programs with a [remote joystick](https://pixavier.github.io/mqtt4snap/LateralProjects/joystick/index.html) via MQTT (in [LateralProjects](https://github.com/pixavier/mqtt4snap/tree/master/LateralProjects/joystick)).
+We can combine Snap<em>!</em> programs with a [remote joystick](https://pixavier.github.io/mqtt4snap/LateralProjects/joystick/index.html) via MQTT (in [LateralProjects](https://github.com/pixavier/mqtt4snap/tree/master/LateralProjects/joystick)).
 
 
 **[Old library demo](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOld.xml)**
@@ -46,7 +46,7 @@ We can combine Snap *!* programs with a [remote joystick](https://pixavier.githu
 
 **[Old library demo (without SSL)](http://extensions.snap.berkeley.edu/snap/snap.html#open:http://raw.githubusercontent.com/pixavier/mqtt4snap/master/examples/DemoOldNoSSL.xml)**
 
-If you want to import the old MQTT4Snap *!* blocks library, copy the following URL to the clipboard and paste it when importing into Snap *!*:
+If you want to import the old MQTT4Snap<em>!</em> blocks library, copy the following URL to the clipboard and paste it when importing into Snap<em>!</em>:
 
     https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/old_dist/mqtt-standalone.xml
 
@@ -70,7 +70,7 @@ The **request** and **response** blocks are suitable for an asynchronous client-
 
 The **request reporter block** is suitable for a synchronous client-server architectural approach on a PubSub based infrastructure, and it is the synchronous version of the previous asynchronous **request block** based on the response topic. Some similar idea implementations such as the Node.js [Replyer module](https://github.com/jsdario/replyer) are available. Find here a minimum [Python server and client implementations](https://github.com/pixavier/mqtt4snap/tree/master/python) of a synchronous MQTT 3.1.1 echo server for the **request block** reporter testing. Find here a minimum synchronous MQTT 3.1.1 callback function [implemented on an ESP32 microcontroller](https://wokwi.com/projects/328227183923298899).
 
-The **example MQTT response report block** combined with the **response block** shows the same echo example fully implemented in Snap *!*.
+The **example MQTT response report block** combined with the **response block** shows the same echo example fully implemented in Snap<em>!</em>.
 
 ![request reporter block](img/PubSub_client-server_sync.png)
 
@@ -97,18 +97,18 @@ The **disconnect** block accepts the value **all** as a parameter, and then it c
 
 ## Example: Controlling IoT electronic devices
 
-Snap *!* can be used for controling and testing IoT devices. [Here](https://www.youtube.com/watch?v=L1kAdtWJoAE&t=15m41s) you can see a demo with a physical twin at the Snap!Con 2021.
+Snap<em>!</em> can be used for controling and testing IoT devices. [Here](https://www.youtube.com/watch?v=L1kAdtWJoAE&t=15m41s) you can see a demo with a physical twin at the Snap!Con 2021.
 
-[Wokwi](https://wokwi.com) is an online Digital Twin for IoT developments. You can see an executable MQTT Python example [here](https://wokwi.com/projects/341895401936257620) or a C/C++ example [here](https://wokwi.com/projects/341900361938764370), which can [be controlled and tested](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/iot_devices/iot_device_test.xml) from Snap *!*.
+[Wokwi](https://wokwi.com) is an online Digital Twin for IoT developments. You can see an executable MQTT Python example [here](https://wokwi.com/projects/341895401936257620) or a C/C++ example [here](https://wokwi.com/projects/341900361938764370), which can [be controlled and tested](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/mqtt4snap/master/LateralProjects/iot_devices/iot_device_test.xml) from Snap<em>!</em>.
 
 ## Command-line mode
 
-You can run Snap *!* in command-line mode using a [headless browser](https://en.wikipedia.org/wiki/Headless_browser). To run MQTT4Snap *!* in a headless browser, the JavaScript extensions must be enabled by default. It can be achieved with an own Snap *!* installation (Download source), adding this line of code "Process.prototype.enableJS = true;" in the snap.html script block of code.
+You can run Snap<em>!</em> in command-line mode using a [headless browser](https://en.wikipedia.org/wiki/Headless_browser). To run MQTT4Snap<em>!</em> in a headless browser, the JavaScript extensions must be enabled by default. It can be achieved with an own Snap<em>!</em> installation (Download source), adding this line of code "Process.prototype.enableJS = true;" in the snap.html script block of code.
 
 
 ## MQTT.js library
 
-MQTT4Snap *!* is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js) library.
+MQTT4Snap<em>!</em> is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js) library.
 
 **Deprectaed:** The "load MQTT library" block loads the module on the fly from the [UNPKG CDN repo](https://unpkg.com/mqtt/).
 
@@ -118,12 +118,12 @@ MQTT4Snap *!* is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js) libra
 
 This project wouldn't exist without:
 
-- The [Snap *!*  Programming Language](https://en.wikipedia.org/wiki/Snap!_(programming_language)) Project. Thanks to the University of California, Berkeley, and the SAP company for this great free online [Snap *!* course](https://open.sap.com/courses/snap1). 
+- The [Snap<em>!</em>  Programming Language](https://en.wikipedia.org/wiki/Snap!_(programming_language)) Project. Thanks to the University of California, Berkeley, and the SAP company for this great free online [Snap<em>!</em> course](https://open.sap.com/courses/snap1). 
 - [MQTT.js](https://github.com/mqttjs/MQTT.js)
 - The "load JS from url" and "load MQTT library" blocks from [Bernat Romagosa](https://github.com/bromagosa)
 - The mqttWildcard matching function, adapted from [https://github.com/hobbyquaker/mqtt-wildcard] 
 
-**Thanks to [Simon Walters](https://github.com/cymplecy) for his [Snap *!* MQTT Extension proposal](https://github.com/pixavier/mqtt4snap/issues/3).**
+**Thanks to [Simon Walters](https://github.com/cymplecy) for his [Snap<em>!</em> MQTT Extension proposal](https://github.com/pixavier/mqtt4snap/issues/3).**
 
-MQTT4Snap *!*  was presented in the [Snap!Con 2020](https://www.snapcon.org/conferences/2020/program/proposals/63) Conference.
+MQTT4Snap<em>!</em>  was presented in the [Snap!Con 2020](https://www.snapcon.org/conferences/2020/program/proposals/63) Conference.
 
