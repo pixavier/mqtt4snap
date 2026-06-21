@@ -118,7 +118,7 @@ MQTT4Snap<em>!</em> is based on the [MQTT.js](https://github.com/mqttjs/MQTT.js)
 
 This project wouldn't exist without:
 
-- The [Snap<em>!</em>  Programming Language](https://en.wikipedia.org/wiki/Snap!_(programming_language)) Project. Thanks to the University of California, Berkeley, and the SAP company for this great free online [Snap<em>!</em> course](https://open.sap.com/courses/snap1). 
+- The [Snap<em>!</em>  Programming Language](https://en.wikipedia.org/wiki/Snap!_(programming_language)) Project. Thanks to the University of California, Berkeley, and the SAP company for this great free online [Snap<em>!</em> course](https://learning.sap.com/courses/get-coding-with-snap-building-up-to-ai). 
 - [MQTT.js](https://github.com/mqttjs/MQTT.js)
 - The "load JS from url" and "load MQTT library" blocks from [Bernat Romagosa](https://github.com/bromagosa)
 - The mqttWildcard matching function, adapted from [https://github.com/hobbyquaker/mqtt-wildcard] 
